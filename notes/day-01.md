@@ -1,5 +1,4 @@
 #Day 1
-## Workflow
 
 ### Terminal Commands
 | Command | Description |
@@ -37,10 +36,20 @@
 | `git` + `push` + `origin` + `master` | commits changes to github |
 | `git` + `init` + `new-project-folder-name` | initialtes new repository locally | 
 
-#### irb Commands
-
+### irb Commands
 | Command | Description |
 | :--- | :--- |
 | `irb` | start interactive ruby session |
 | `exit` | exit an `irb` session |
 | `ctrl` + `c` | interrupt or stop a command |
+
+
+### Ruby Style
+| Concept | Description | 
+| :----- | :------ |
+| File naming | use `snake_case` | 
+| Whitespace | separte thoughts and ideas with line breaks | 
+| Variable names | make descriptive | 
+| Comments | Describe what the code does not how it does it | 
+| Large Numbers | use underscores to make large numbers easier to read i.e. `num = 3_000_000` | 
+
