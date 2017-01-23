@@ -27,7 +27,7 @@
 
 ### Git Commands
 | Command | Description |
-| ---------- | -------------- |
+| :---------- | :-------------- |
 | `git` + `clone` + `url` | clones repository from GitHub | 
 | `git` + `status` | checks status / checks for changes |
 | `echo` + `"Text Goes Here"` + `>> filename.txt` | writes file with text |
