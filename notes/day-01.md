@@ -23,6 +23,7 @@
 | `ctrl` + `c` | interrupt or stop a command |
 | `ruby` | open ruby files by typing `ruby filename.rb`|
 | `atom` | launch atom by typing `atom filename.txt` |
+| `command` + `/` | comment out highlighted section in atom |
 
 ### Git Commands
 | Command | Description |
@@ -52,4 +53,16 @@
 | Variable names | make descriptive | 
 | Comments | Describe what the code does not how it does it | 
 | Large Numbers | use underscores to make large numbers easier to read i.e. `num = 3_000_000` | 
+
+### Keyboard Commands
+| Keyboard Input | Description |
+| :--------- | :---------- |
+| `gets` | short for "gets string" |
+| `chomp` | removes the newline character | 
+| `to_i` | converts data type to an integer | 
+| `to_f` | converts data type to a float |
+**Best Practice** i.e. age = gets.chomp.to_i
+
+**Resources**
+* [Crowd-sourced Ruby style guide](https://github.com/bbatsov/ruby-style-guide)
 
