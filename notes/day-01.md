@@ -63,6 +63,18 @@
 | `to_f` | converts data type to a float |
 **Best Practice** i.e. age = gets.chomp.to_i
 
+### Strings
+| Concept | Description | 
+| :--------- | :----------|
+| Escape Sequences | `\n` new line `\\` single backslash `\"` double quote |
+| String Interpolation | Allows ruby code to appear within a string i.e. `puts "1 + 2 = #{1 + 2}` |
+| String Concatenation | Combine strings using concatenation with either the `+` operator, or the `<<` operator|
+| `+` | Creates a new string in memory |
+| `<<` | Modifies the original string | 
+| % Notation | A method for creating an array of strings |
+| `%w` | Use to create a non-interpolated array of strings |
+| `%W` | to create an interpolated array of strings |
+
 **Resources**
 * [Crowd-sourced Ruby style guide](https://github.com/bbatsov/ruby-style-guide)
 
