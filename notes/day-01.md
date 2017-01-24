@@ -28,14 +28,15 @@
 ### Git Commands
 | Command | Description |
 | :---------- | :-------------- |
-| `git` + `clone` + `url` | clones repository from GitHub | 
+| `git` + `clone` + `url` | clones repository from GitHub |
 | `git` + `status` | checks status / checks for changes |
 | `echo` + `"Text Goes Here"` + `>> filename.txt` | writes file with text |
 | `cat` + `filename.txt` | shows contents of file |
 | `git` + `add` + `filename.txt` | adds file |
 | `git` + `commit` + `-m` + `"Message"` | commits changes with comments |
 | `git` + `push` + `origin` + `master` | commits changes to github |
-| `git` + `init` + `new-project-folder-name` | initialtes new repository locally | 
+| `git` + `init` + `new-project-folder-name` | initialtes new repository locally |
+| `git` + `pull` | updates local file to match remote file |
 
 ### irb Commands
 | Command | Description |
@@ -46,35 +47,34 @@
 
 
 ### Ruby Style
-| Concept | Description | 
+| Concept | Description |
 | :----- | :------ |
-| File naming | use `snake_case` | 
-| Whitespace | separte thoughts and ideas with line breaks | 
-| Variable names | make descriptive | 
-| Comments | Describe what the code does not how it does it | 
-| Large Numbers | use underscores to make large numbers easier to read i.e. `num = 3_000_000` | 
+| File naming | use `snake_case` |
+| Whitespace | separte thoughts and ideas with line breaks |
+| Variable names | make descriptive |
+| Comments | Describe what the code does not how it does it |
+| Large Numbers | use underscores to make large numbers easier to read i.e. `num = 3_000_000` |
 
 ### Keyboard Commands
 | Keyboard Input | Description |
 | :--------- | :---------- |
 | `gets` | short for "gets string" |
-| `chomp` | removes the newline character | 
-| `to_i` | converts data type to an integer | 
+| `chomp` | removes the newline character |
+| `to_i` | converts data type to an integer |
 | `to_f` | converts data type to a float |
 **Best Practice** i.e. age = gets.chomp.to_i
 
 ### Strings
-| Concept | Description | 
+| Concept | Description |
 | :--------- | :----------|
 | Escape Sequences | `\n` new line `\\` single backslash `\"` double quote |
 | String Interpolation | Allows ruby code to appear within a string i.e. `puts "1 + 2 = #{1 + 2}` |
 | String Concatenation | Combine strings using concatenation with either the `+` operator, or the `<<` operator|
 | `+` | Creates a new string in memory |
-| `<<` | Modifies the original string | 
+| `<<` | Modifies the original string |
 | % Notation | A method for creating an array of strings |
 | `%w` | Use to create a non-interpolated array of strings |
 | `%W` | to create an interpolated array of strings |
 
 **Resources**
 * [Crowd-sourced Ruby style guide](https://github.com/bbatsov/ruby-style-guide)
-
