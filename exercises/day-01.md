@@ -32,7 +32,7 @@
   ```
 
 1. Revisit your MadLibs code, and update your code to improve its style
-```ruby
+  ```ruby
 # introduction for new user
 puts "WELCOME TO MY MADLIB GENERATOR"
 puts "Please enter some information below"
@@ -69,7 +69,14 @@ print "Place (type): "
 place = gets.chomp.downcase
 
 # prints user's custom madlib!
-print "HERE'S YOUR MADLIB, #{name}:\n \n \n \" THE BIG OL' #{animal.upcase} \" \n #{name2.capitalize} was a big ol’ #{adj_1} #{animal.downcase}. Whenever the #{animal.downcase} walked down the street, all the other animals would #{verb}. It lived in a very #{adj_2} house, with lots of #{noun}. The neighbors all thought the #{animal} was a real \"#{noun2}.\" #{name2.capitalize} felt like something was missing... until one day a #{animal_2} moved in to the #{place} nextdoor. The #{animal_2} also loved #{noun}, and they became fast friends!"
+print "HERE'S YOUR MADLIB, #{name}:\n \n \n \"
+THE BIG OL' #{animal.upcase} \"\n
+#{name2.capitalize} was a big ol’ #{adj_1} #{animal.downcase}. Whenever the
+#{animal.downcase} walked down the street, all the other animals would #{verb}.
+It lived in a very #{adj_2} house, with lots of #{noun}. The neighbors all
+thought the #{animal} was a real \"#{noun2}.\" #{name2.capitalize} felt like
+something was missing... until one day a #{animal_2} moved in to the #{place}
+nextdoor. The #{animal_2} also loved #{noun}, and they became fast friends!" 
 ```
 
 1. Bio Program
