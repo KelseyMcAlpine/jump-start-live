@@ -81,14 +81,14 @@
 * In an if/elsif statement 0 or 1 of the blocks may execute
 * In an if/elsif/else statement 1 block will execute
 
-## Postfix Conditional
+### Postfix Conditional
 * A way to shorten your code when you have only one test to perform
 ``` ruby
 name = gets.chomp
 puts "You're rad!" if name == "Kelsey"
 ```
 
-## Case statements
+### Case statements
 * A good option when you want to test a number of cases on a single variable
 ``` ruby
 grade = gets.chomp
