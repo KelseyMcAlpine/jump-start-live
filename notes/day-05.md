@@ -14,7 +14,7 @@
 * An array is a data structure (used to organize and store information).
 * Arrays are used to group data together and make it easier to access.
 
-#### Creating an Array
+### Creating an Array
 **Using []**
 ```
 # creates an empty array named list
@@ -38,7 +38,7 @@ ada = Array.new(5, "Ada")
 # creating an array of multiples of 2, named mult2
 mult2 = Array.new(5) { |i| i * 2 }
 ```
-#### Adding to the end of an Array
+### Adding to the end of an Array
 **push**
 * Push can accept 1 or more elements
 ```
@@ -57,7 +57,7 @@ list << false
 list << false, true # error!
 ```
 
-#### Printing an Array
+### Printing an Array
 * 'puts' will list each element on its own line
 * Using `print` or `puts` with string interpolation and the array will display as a comma separated list, which is usually easier to read
 ```
@@ -77,7 +77,7 @@ print arr
 puts "#{arr}"
 ```
 
-#### Iterating Over an Array
+### Iterating Over an Array
 * Iterating over an array is the process of looking at each element of an array and performing some action
 * You can use either a `do ... end` block or a block with curly braces for the each method.
 * By convention `do ... end` should be used for multi-line blocks
@@ -101,7 +101,7 @@ end
 nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 ```
 
-#### Useful Array Methods
+### Useful Array Methods
 | Method | Description |
 | :--- | :--- |
 | `arr.length` | Returns the number of elements currently stored in arr |
