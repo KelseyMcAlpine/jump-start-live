@@ -27,7 +27,7 @@ password_1  = gets.chomp
 print "Confirm password: "
 password_2 = gets.chomp
 
-# defines special characters, number
+# defines special characters and sets all conditions as false
 special = "`~!@#$%^&*()-_+=}{[]|>/:;"
 has_number = false
 has_special = false
@@ -45,7 +45,7 @@ until has_number && has_special && has_capital && has_lowercase && has_length &&
   if password_1.length >= 8
     has_length = true
   end
-  
+
   password_1.length.times do |x|
     if password_1[x] == "0" || password_1[x].to_i != 0
       has_number = true
@@ -59,8 +59,8 @@ until has_number && has_special && has_capital && has_lowercase && has_length &&
   end
 
 
-# displays error messages if passsword does not meet all criteria
-# for new password, and prompts user to try again.
+  # displays specific error messages if passsword does not meet
+  # all criteria for new password, and prompts user to try again.
   if !has_number || !has_special || !has_capital || !has_lowercase || !has_length || !has_match
     if !has_number
       puts "ERROR. Password must include one or more numbers."
