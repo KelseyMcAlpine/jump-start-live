@@ -50,3 +50,34 @@ end
 
 
 ## Iterators
+
+* An iterator is an object that traverses (i.e., iterates) over the elements in a collection (e.g., array) and usually does something with those elements
+* Iterators are methods
+* All iterators require blocks, and execute those blocks as many times as there are iterations
+* Iterators return all the elements of a collection, one after the other
+* When using an iterator its impossible to get an infinite loop, as the iterator handles these details for you
+* The collection can later be changed without having to update the code block using the iterator, it handles those changes for you
+
+#### `each`
+* `Each` is an iterator that returns each value of the collection, one by one, to the block
+* `Each` must be associated with a block
+* The iteration variable is optional with each, but usually used
+* Syntax (do...end is the block, variable is the iteration variable)
+```
+collection.each do |variable|
+  code
+end
+```
+* `Each` can also be used with a range.
+* A range is a set of values with a beginning and an end. The beginning value of a range is always included. When two dots are used, the end value is included. When three dots are used, the end value is not included.
+
+#### `times`
+* When `times` is used with an iteration variable it becomes an iterator over a certain range of values
+* `Times` must be associated with a block, but the iteration variable is optional
+* `Times` starts counting at 0, and goes up to 1 - the value places before `.times`
+* `Times` syntax with iteration variable:
+```
+Fixnum.times do |variable|
+  code
+end
+```
