@@ -16,7 +16,7 @@
 
 ### Creating an Array
 **Using []**
-```
+```Ruby
 # creates an empty array named list
 list = []
 
@@ -24,7 +24,7 @@ list = []
 list = [1, 2, 3]
 ```
 **Array.new**
-```
+```Ruby
 # creates an empty array named list
 list = Array.new
 
@@ -41,7 +41,7 @@ mult2 = Array.new(5) { |i| i * 2 }
 ### Adding to the end of an Array
 **push**
 * Push can accept 1 or more elements
-```
+```Ruby
 list = ["apple", "orange", "kiwi"]
 list.push("banana")
 # list is now ["apple", "orange", "kiwi", "banana"]
@@ -50,7 +50,7 @@ list.push("pear", "nectarine")
 ```
 **shovel** `<<`
 * The shovel method can only accept 1 element
-```
+```Ruby
 list = [true, false]
 list << false
 # list is now [true, false, false]
@@ -60,7 +60,7 @@ list << false, true # error!
 ### Printing an Array
 * 'puts' will list each element on its own line
 * Using `print` or `puts` with string interpolation and the array will display as a comma separated list, which is usually easier to read
-```
+```Ruby
 arr = Array.new(3, 0)
 # This will display ..
 # 0
@@ -83,7 +83,7 @@ puts "#{arr}"
 * By convention `do ... end` should be used for multi-line blocks
 * Curly braces should be used for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do ... end` blocks
 **each**
-```
+```Ruby
 nums = [1, 3, 5]
 nums.each do |num|
   puts num
@@ -92,7 +92,7 @@ end
 nums.each { |num| puts num }
 ```
 **each with index**
-```
+```Ruby
 nums = [2, 4, 6]
 nums.each_with_index do |num, index|
   puts "#{index}: #{num}"
