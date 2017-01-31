@@ -6,7 +6,7 @@
 * If you are naming something, you should use a symbol
 * If the contents of the individual characters are important then you should use a string
 * Syntax:
-```
+```Ruby
 : age # creates a symbol named age
 
 "apple".to_sym # converts the string "apple" to a symbol
@@ -29,7 +29,7 @@ puts "#{colors[:red] people love red}"
 * Hashes store info in the order in which the keys were insterted, however you shouldn't rely on the order
 
 #### Creating a Hash
-```
+```Ruby
 # an empty hash
 students = {}
 
@@ -44,14 +44,14 @@ people = {104 => "Korica", 54 => "Jamie", 4 => "Kelly"}
 ```
 
 #### Storing and Retrieving Data from a Hash
-```
+```Ruby
 # will store the key,value pair into the hash
 # if the key already exists, it will change the current value to the new value
 hash[key] = value
 ```
 
 #### Iterating Over a Hash
-```
+```Ruby
 # iterating over key,value pairs
 students.each do |name, age|
     puts "Student #{name} is #{age} years old"
@@ -78,7 +78,6 @@ students.each_value { |age| puts "#{age}" }
 ```
 
 #### Useful Hash Methods
-```
 | Method | Description |
 | :--- | :--- |
 | `h.clear` | Remove all key-value pairs from hash h |
@@ -89,7 +88,6 @@ students.each_value { |age| puts "#{age}" }
 | `h.key(value)` | Return the key of an occurrence of a given value in hash h |
 | `h.key?(key)` | Return true if key is present in hash h |
 | `h.value?(value)` | Return true if value is present in hash h |
-```
 
 ## Arrays vs Hashes Comparison
 
@@ -116,7 +114,7 @@ students.each_value { |age| puts "#{age}" }
 
 #### Tips
 * If you want to store single pieces of info, use an array. If your data is better described as a pair, then use a hash.
-```
+```Ruby
 # stores names of students in an array
 names = ["Riley", "Sam", "Alex"]
 
