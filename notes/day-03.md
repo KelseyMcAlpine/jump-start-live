@@ -26,13 +26,13 @@
 #### Sentinel-controlled Loops
 * A sentinel-controlled loop is used when the number of loops cannot be determined prior to loop execution (e.g, while, until)
 * `while` syntax:
-```
+```ruby
 while <boolean expression> do
   code
 end
 ```
 * `until` syntax:
-```
+```ruby
 until <boolean expression> do
   code
 end
@@ -41,7 +41,7 @@ end
 #### Counter-controlled Loops
 * A counter-controlled loop is used when the number of loops can be determined prior to loop execution (e.g, times)
 * `times` syntax:
-```
+```ruby
 fixnum.times
   code
 end
@@ -63,7 +63,7 @@ end
 * `Each` must be associated with a block
 * The iteration variable is optional with each, but usually used
 * Syntax (do...end is the block, variable is the iteration variable)
-```
+```ruby
 collection.each do |variable|
   code
 end
@@ -76,7 +76,7 @@ end
 * `Times` must be associated with a block, but the iteration variable is optional
 * `Times` starts counting at 0, and goes up to 1 - the value places before `.times`
 * `Times` syntax with iteration variable:
-```
+```ruby
 Fixnum.times do |variable|
   code
 end

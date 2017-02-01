@@ -12,10 +12,12 @@
 | `ls` and `ls -l`| list the items in the directory |
 | `ls -a` | list the items in the directory, including hidden files |
 | `mkdir` | make a new directory |
+| `rmdir` | remove directory |
 | `rm <filename>` | removes the file named filename |
 | `rm -r <dirname>` | removes the directory (and everything in it) named dirname |
 | &#8593; | view the previous command |
-| `mv` | rename
+| `mv` | rename |
+| `cp` | copy file or directory | 
 | `ctrl` + `a` | go to beginning of line |
 | `ctrl` + `e` | go to end of line |
 | `alt` + &#8594; | move to the right, one word |
