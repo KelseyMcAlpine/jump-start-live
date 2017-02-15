@@ -1,6 +1,6 @@
 # Jump Start Live
 
-## + Table of Contents
+## Table of Contents
 | Notes         | Exercises |  Topic           | Complete
 |:--------------------| :-------------| :---------------------| :--------------------
 | [Day 1](notes/day-01.md) | [Day 1](exercises/day-01.rb)| Programming Workflow, Ruby Styles, User Input, String Interpolation | :white_check_mark:
